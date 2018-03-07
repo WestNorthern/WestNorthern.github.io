@@ -8,12 +8,29 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link rel="stylesheet" href="index.css">
-  <title>RySpace</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+  <title>RySpace | Home</title>
 </head>
 <body>
+  <nav>
+    <ul>
+      <li>
+        <a href="./index.html">About Me</a>
+      </li>
+      <li> &nbsp; | &nbsp;</li>
+      <li>
+        <a href="./workshop.html"> &nbsp; Workshop</a>
+      </li>
+      <li>&nbsp; | &nbsp;</li>
+      <li>
+        <a href="./notebook.html"> &nbsp; Notebook</a>
+      </li>
+    </ul>
+  </nav>
   <div class="splash">
     <div class="splash-banner">
-      By Ryan
+      by Ryan
     </div>
     <img id="ryan" src="./public/weird-ry.png" alt="Cosmic Casual">
     <img id="hotsauce" src="./public/hotsauce.png" alt="Spicy">
@@ -40,5 +57,6 @@
   var scene = document.getElementById('scene');
   var parallax = new Parallax(scene);
   </script> -->
+  <script src="index.js"></script>
 </body>
 </html>
