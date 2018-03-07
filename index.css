@@ -1,0 +1,23 @@
+.splash {
+  top: 0;
+  left: 0;
+  height: 800px;
+  background: teal;
+  color: gray;
+  position: absolute;
+  width: 100%;
+}
+
+.splash img {
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+  height: 70%;
+}
+
+.splash-banner {
+  position: absolute;
+  bottom: 100px;
+  left: 600px;
+  z-index: 1;
+}
